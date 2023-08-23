@@ -1,7 +1,7 @@
-name: cotr
+name: cotr_cli
 description: A CLI for the code_on_the_rocks package.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+version: 1.0.3
+repository: https://github.com/CodeOTR/cotr_cli
 
 environment:
   sdk: ^3.1.0
@@ -13,3 +13,7 @@ dependencies:
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.21.0
+
+# https://dart.dev/tools/pub/cmd/pub-global#configuring-package-executables
+executables:
+  cotr:

@@ -3,8 +3,8 @@ import 'package:cotr_cli/cotr_cli.dart';
 
 void main(List<String> arguments) {
   CommandRunner(
-    "my_cli",
-    "Dart CLI example",
+    "cotr",
+    "CLI for Code on the Rocks",
   )
     ..addCommand(CreateNewView())
     ..run(arguments);
